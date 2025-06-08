@@ -1,0 +1,40 @@
+.b1 {
+    border: 1px solid black;
+}
+
+.b2 {
+    border: 2px dotted palevioletred;
+}
+
+.b3 {
+    border: 4px solid salmon;
+}
+
+.t1 {
+    color: aqua;
+    font-size: 30px;
+}
+
+.t2 {
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.t3 {
+    color: crimson;
+    font-weight: 800;
+}
+
+.txt1 {
+    color: cornflowerblue;
+    font-weight: lighter;
+}
+
+.txt2 {
+    color: darkseagreen;
+    text-decoration: dotted;
+}
+
+.txt3 {
+    text-decoration: underline;
+}

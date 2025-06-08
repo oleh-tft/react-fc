@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { Info } from './components/Info';
+
+const clubs = [
+  {title: 'FC Chornomorets Odesa', img: 'FC_Chornomorets.png', city: 'Odesa', year: 1936},
+  {title: 'FC Dnipro', img: 'FC_Dnipro.png', city: 'Dnipro', year: 1918}
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id='container'>
+        <Info title={clubs[0].title} img={clubs[0].img} city={clubs[0].city} year={clubs[0].year}></Info>
+        <Info title={clubs[1].title} img={clubs[1].img} city={clubs[1].city} year={clubs[1].year}></Info>
+      </div>
     </div>
   );
 }
